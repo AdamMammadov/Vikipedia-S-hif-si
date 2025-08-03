@@ -1,0 +1,48 @@
+ /* Ümumi sayt tərzi */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar üçün əlavə stil */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Naviqasiya linkləri */
+.navbar-nav .nav-link {
+  color: white !important;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Kartların görünüşü */
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Footer üçün stil */
+footer {
+  background-color: #1e5631;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Responsive dizayn */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
